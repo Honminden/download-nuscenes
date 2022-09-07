@@ -26,3 +26,6 @@ bash nuscenes_wget.sh
 ```bash
 bash md5sum_all.sh
 ```
+
+warning: please do not abuse the download script and destroy nuscenes data service
+警告：请勿滥用下载脚本导致nuscenes数据服务受到破坏
