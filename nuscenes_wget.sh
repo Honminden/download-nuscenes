@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 FNAMES=(
 v1.0-trainval_meta.tgz
-v1.0-trainval01_blobs.tar
-v1.0-trainval02_blobs.tar
+v1.0-trainval01_blobs.tgz
+v1.0-trainval02_blobs.tgz
 v1.0-trainval03_blobs.tgz
 v1.0-trainval04_blobs.tgz
 v1.0-trainval05_blobs.tgz
@@ -18,7 +18,7 @@ mkdir temp
 for FNAME in ${FNAMES[@]}
 do
 FNAME_URL=./temp/${FNAME}_url
-FNAME_URL_LOG=./temp/${FNAME_URL}.log
+FNAME_URL_LOG=${FNAME_URL}.log
 FNAME_LOG=./temp/${FNAME}.log
 # change headers if necessary
 HEADER_AUTH="authority: o9k5xn5546.execute-api.us-east-1.amazonaws.com"

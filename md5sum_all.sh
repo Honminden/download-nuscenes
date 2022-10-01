@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 FNAMES=(
 v1.0-trainval_meta.tgz
-v1.0-trainval01_blobs.tar
-v1.0-trainval02_blobs.tar
+v1.0-trainval01_blobs.tgz
+v1.0-trainval02_blobs.tgz
 v1.0-trainval03_blobs.tgz
 v1.0-trainval04_blobs.tgz
 v1.0-trainval05_blobs.tgz
